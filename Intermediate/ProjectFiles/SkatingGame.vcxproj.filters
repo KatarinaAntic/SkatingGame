@@ -11,6 +11,10 @@
     <None Include="..\..\Source\SkatingGameEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.gitattributes" />
+    <None Include="..\..\.gitignore" />
+    <None Include="..\..\.gitignore.txt" />
+    <None Include="..\..\.vsconfig" />
     <Filter Include="Config">
       <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
     </Filter>
@@ -29,6 +33,12 @@
     <Filter Include="Source\SkatingGame">
       <UniqueIdentifier>{BD3268C8-8660-33EC-A5B5-D9579DBC5363}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\SkatingGame\ASkatingGameMode.cpp">
+      <Filter>Source\SkatingGame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\SkatingGame\ASkatingGameMode.h">
+      <Filter>Source\SkatingGame</Filter>
+    </ClCompile>
     <None Include="..\..\Source\SkatingGame\SkatingGame.Build.cs">
       <Filter>Source\SkatingGame</Filter>
     </None>
@@ -37,6 +47,18 @@
     </ClCompile>
     <ClCompile Include="..\..\Source\SkatingGame\SkatingGame.h">
       <Filter>Source\SkatingGame</Filter>
+    </ClCompile>
+    <Filter Include="Source\SkatingGame\Private">
+      <UniqueIdentifier>{FF546EFD-0E4B-399C-A3E5-2D3705C230DF}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\SkatingGame\Private\SkateCharacter.cpp">
+      <Filter>Source\SkatingGame\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\SkatingGame\Public">
+      <UniqueIdentifier>{A174D4EF-E44E-3A3E-9BC0-9BE74FCD7B9A}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\SkatingGame\Public\SkateCharacter.h">
+      <Filter>Source\SkatingGame\Public</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
