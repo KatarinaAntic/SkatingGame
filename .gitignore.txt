@@ -1,0 +1,15 @@
+# Ignore Visual Studio files
+.vs/
+*.suo
+*.user
+*.userprefs
+
+# Ignore intermediate files
+Intermediate/
+DerivedDataCache/
+
+# Ignore build output folders
+Binaries/
+
+# Ignore saved data (autosaves, logs, etc.)
+Saved/

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\SkatingGame.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\SkatingGame.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\SkatingGameEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\SkatingGame">
+      <UniqueIdentifier>{BD3268C8-8660-33EC-A5B5-D9579DBC5363}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\SkatingGame\SkatingGame.Build.cs">
+      <Filter>Source\SkatingGame</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\SkatingGame\SkatingGame.cpp">
+      <Filter>Source\SkatingGame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\SkatingGame\SkatingGame.h">
+      <Filter>Source\SkatingGame</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
